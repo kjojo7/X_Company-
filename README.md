@@ -1,6 +1,6 @@
 # MK Cars - Fleet & Employee Management System
 
-A comprehensive full-stack web application for managing company car fleets, employee records and user accounts. Built with modern technologies for efficiency and scalability.
+A comprehensive full-stack web application for managing company car fleets, employee records, user accounts, and generating business reports. Built with modern technologies for efficiency and scalability.
 
 ## 🎯 Features
 
@@ -45,6 +45,7 @@ MK_CARS/
 │   │   ├── employees.js      # Employee management endpoints
 │   │   ├── posts.js          # Job positions endpoints
 │   │   ├── users.js          # User management endpoints
+│   │   └── reports.js        # Reports endpoints
 │   ├── server.js             # Main server file
 │   ├── db.js                 # Database setup
 │   └── package.json
@@ -272,8 +273,4 @@ npm run build
 
 ### Port Already in Use
 - Change the PORT in `.env` or use: `lsof -ti:5000 | xargs kill -9`
-  
----
 
-**Last Updated:** May 2026  
-**Version:** 1.0.0
